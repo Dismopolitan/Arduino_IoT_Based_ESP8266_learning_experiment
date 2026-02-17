@@ -114,7 +114,7 @@ Example:
   "device": "ESP_Node",
   "uptime": 1234,
   "wifi": "MyWiFi",
-  "ip": "192.168.1.50",
+  "ip": "********",
   "rssi": -60,
   "temperature": 23.5,
   "humidity": 55,
