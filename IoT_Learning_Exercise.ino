@@ -205,7 +205,7 @@ void handleApiStatus() {
   doc["device"] = config.deviceName;
   doc["uptime"] = millis() / 1000;
   doc["wifi"] = config.wifiSSID;
-  doc["ip"] = WiFi.localIP().toString();
+  doc["ip"] = "hidden";  // hide local IP from public view
   doc["rssi"] = (WiFi.status() == WL_CONNECTED) ? WiFi.RSSI() : 0;
 
   // --- virtual sensors ---
